@@ -24,7 +24,7 @@ DEVICE_MAPPING = {
             Platform.FAN: {
                 "fan": {
                     "power": "power",
-                    "speeds": list({"gear": value + 1} for value in range(0, 99)),
+                    "speeds": list({"gear": value + 1} for value in range(0, 100)),
                     "oscillate": "swing",
                     "preset_modes": {
                         "normal": {"mode": "normal"},
@@ -145,7 +145,7 @@ DEVICE_MAPPING = {
             Platform.FAN: {
                 "fan": {
                     "power": "power",
-                    "speeds": list({"gear": value + 1} for value in range(0, 99)),
+                    "speeds": list({"gear": value + 1} for value in range(0, 100)),
                     "preset_modes": {
                         "normal": {"mode": "normal"},
                         "storm": {"mode": "storm"},
